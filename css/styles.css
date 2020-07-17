@@ -1,0 +1,167 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+i{
+  margin-right: 0.5rem;
+}
+p {
+  color: #8f8f8f;
+  margin: 0 1rem;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#features {
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+  line-height: 2.5;
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  color: #fff;
+}
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+}
+.cta-header{
+  font-weight:900;
+  font-size: 3rem;
+  margin-bottom: 3%;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.carousel-item {
+  padding: 4% 15%;
+}
+
+.feature-icon {
+  font-size: 60px;
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.container {
+  padding: 5%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.feature-h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 2.5rem 0 1rem;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-img {
+  width: 90%;
+}
+.btn{
+  margin: 1rem;
+}
+.cta-btn{
+  margin:1.5rem;
+}
+.footer-icon{
+  margin: 0 0.75rem 1rem;
+}
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: none;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
